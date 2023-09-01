@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>نادي أدِيب</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+<div class="from-center">
+    <form id="form-wrapper" class="form-wrapper" name="form" action="https://script.google.com/macros/s/AKfycbzOcMVvspE2UXIeqmTWdaCA36JXrxaPsW-erBbidHGLLHm75CM6sBQNwNDDsmZt9v6Lzw/exec">
+            <nav id="progress-bar" class="progress-bar">
+                <ul class="progress-bar__container">  
+                    <li class="progress-bar__item current"><a href="#" class="link">معلومات المُتقدم</a></li>
+                    <li class="progress-bar__item"><a href="#" class="link">الخبرات والمهارات</a></li>
+                    <li class="progress-bar__item"><a href="#" class="link">رغبة الأنضمام</a></li>
+                    <li class="progress-bar__item"><a href="#" class="link">معرض الأعمال</a></li>      
+                </ul>
+            </nav>
+           
+            <div id="fieldset-container" class="tab-wrapper ">
+                <fieldset class="tab-panel">
+                    <div class="legend"> <span><img src="شعار اديب.png"></span> التقديم لنادي </div>
+                    <div class="input-group">
+                        <input type="text" class="input" name="الأسم الثلاثي" id="number" required>
+                        <label class="label" for="text"><i class="fa-solid fa-user"></i> الأسم الثلاثي </label> 
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="الكلية / القسم" id="date" data-dd-opt-custom-class="date" required>
+                        <label class="label" for="text"><i class="fa-solid fa-graduation-cap"></i> الكلية / القسم </label> 
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="المستوى" style="text-align: left;" required>
+                        <label class="label" for="text"><i class="fa-solid fa-list-ol"></i> المستوى </label> 
+                    </div>
+
+                    <div class="input-group">
+                        <input type="number" class="input" name="رقم الجوال"  style="text-align: left;" required>
+                        <label class="label" for="number"><i class="fa-solid fa-phone"></i> رقم الجوال </label>
+                    </div> 
+
+                    <div class="input-group">
+                        <input type="email" class="input" name="البريد الألكتروني" id="confirm-p" required>
+                        <label class="label" for="email"><i class="fa-solid fa-envelope"></i> البريد الألكتروني </label>
+                    </div>
+
+                    <div class="input-group select">
+                      <select name="حال المُتقدم" class="input" id="country" required>
+                          <option value=""></option>
+                          <option value="طالب">طالب</option>
+                          <option value="خريج">خريج</option>
+                      </select>
+                      <label class="label" for="country"><i class="fa-solid fa-user-graduate"></i> حال المُتقدم </label>
+                  </div>
+
+                </fieldset>
+
+                <fieldset class="tab-panel">
+                    <div class="legend">  !حابين نسمع منك</div>
+
+                    <div class="input-group">
+                        <textarea name="مهارتك وما يميزك، نبذة عنك" class="input" id="meet" cols="20" rows="20" ></textarea>
+                        <label class="label" for="meet"><i class="fa-solid fa-award"></i> مهارتك وما يميزك، نبذة عنك </label>
+                    </div>
+
+                    <div class="input-group">
+                      <textarea name="هل لديك خبرات في الأندية الطلابية" class="input" id="meet" cols="20" rows="10" ></textarea>
+                      <label class="label" for="meet"><i class="fa-solid fa-cubes"></i> هل لديك خبرات في الأندية الطلابية </label>
+                  </div>
+                </fieldset>
+
+                <fieldset class="tab-panel">
+                    <div class="legend">  وين تشوف نفسك؟ </div>
+                    <div class="checkbox-group">
+                    
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="مُصمم" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-pen-nib"></i>
+                          </span>
+                          <span class="checkbox-label">مُصمم</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="مُصور" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-camera"></i>
+                          </span>
+                          <span class="checkbox-label">مُصور</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="مونتير" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-clapperboard"></i>
+                          </span>
+                          <span class="checkbox-label">مونتير</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="مُقدم" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-microphone-lines"></i>
+                          </span>
+                          <span class="checkbox-label">مُقدم</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="صانع محتوى" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                          </span>
+                          <span class="checkbox-label">صانع محتوى</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="سفير" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-user-plus"></i>
+                          </span>
+                          <span class="checkbox-label">سفير</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-wrapper">
+                        <input name="فنان" value="نعم" type="checkbox" class="checkbox-input" />
+                        <span class="checkbox-tile">
+                          <span class="checkbox-icon">
+                            <i class="fa-solid fa-palette"></i>
+                          </span>
+                          <span class="checkbox-label">فنان</span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+
+                </fieldset>
+                
+                <fieldset class="tab-panel">
+                    <div class="legend">  متحمسين نشوف إبداعك </div>
+                    
+                    <div class="input-group">
+                        <input type="text" class="input" name="حساب تويتر" id="facebook">
+                        <label class="label" for="facebook"><i class="fa-brands fa-x-twitter"></i> (أختياري)حساب تويتر </label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="input" name="حساب أنستقرام" id="instagram">
+                        <label class="label" for="instagram"><i class="fa-brands fa-instagram"></i> (أختياري)حساب أنستقرام </label>
+                    </div>
+
+                    <div class="input-group">
+                      <input type="text" class="input" name="حساب تيك توك" id="instagram">
+                      <label class="label" for="instagram"><i class="fa-brands fa-tiktok"></i> (أختياري)حساب تيك توك </label>
+                  </div>
+
+                </fieldset>
+               
+            </div>
+            <button class="submit-button button" onclick="sweetalertclick()">التسجيل بالنادي</button>
+            <!-- <input class="submit-button button" type="submit" value="Register"> -->
+            <nav id="tab-nav" class="tab-nav">
+                <button class="tab-nav__button nav-button prev lnr lnr-arrow-up"></button>
+                <button class="tab-nav__button nav-button next lnr lnr-arrow-down"></button>
+            </nav>
+            
+        </form>
+    </div>
+
+<!-- JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="script.js"></script>
+<!-- Date -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<!-- Send Data Base & Alert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzOcMVvspE2UXIeqmTWdaCA36JXrxaPsW-erBbidHGLLHm75CM6sBQNwNDDsmZt9v6Lzw/exec'
+    const form = document.forms['form']
+    
+    form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          Swal.fire({
+  title: '<strong>شكرًا لك</strong>',
+  icon: 'success',
+  html:
+    'سنتواصل معك قريبًا، خليك مستعد',
+  showCloseButton: true,
+  showCancelButton: true,
+  focusConfirm: false,
+  confirmButtonText:
+  '<a href="https://twitter.com/AB_KFU">الذهاب الى تويتر</a>',
+  cancelButtonText:
+  '<a href="index.html">التسجيل من جديد</a>',
+})
+        })
+    </script>
+
+
+<script>(function(w, d) { w.CollectId = "64ef8a7f8a3fde15c3eccc87"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+</body>
+</html>
